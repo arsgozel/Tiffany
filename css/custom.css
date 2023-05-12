@@ -3,7 +3,7 @@
 }
 
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 html,
@@ -37,8 +37,8 @@ body {
 
 
 .nav-scroller .nav-link {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
+  padding-top: .20rem;
+  padding-bottom: .20rem;
   color: black;
 }
 
