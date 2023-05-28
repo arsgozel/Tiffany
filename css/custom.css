@@ -59,3 +59,16 @@ body {
 .bolder {
   font-weight: 500;
 }
+
+
+.a:hover {
+  background-size: 0 3px, 100% 3px;
+}
+
+.a {
+  background: linear-gradient( to right, #ffffff, #ffffff, #ffffff), linear-gradient( to right, #00c3ff, #00c3ff, #00c3ff);
+  background-size: 100% 1px, 0 1px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 500ms;
+}
