@@ -59,13 +59,3 @@ body {
 .bolder {
   font-weight: 500;
 }
-
-
-.bg-image {
-  background-image: url(../img/ring.webp);
-  background-color: #cccccc;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
