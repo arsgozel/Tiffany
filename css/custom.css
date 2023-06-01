@@ -61,14 +61,30 @@ body {
 }
 
 
-.a:hover {
-  background-size: 0 3px, 100% 3px;
+.a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .a {
-  background: linear-gradient( to right, #ffffff, #ffffff, #ffffff), linear-gradient( to right, #00c3ff, #00c3ff, #00c3ff);
-  background-size: 100% 1px, 0 1px;
+  background:
+    linear-gradient(
+      to right,
+      #ffffff2d,
+      #ffffff2d
+    ),
+    linear-gradient(
+      to right,
+      rgb(125, 233, 252),
+      rgb(34, 250, 250),
+      rgb(0, 186, 211)
+  );
+  background-size: 100% 2px, 0 2px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
-  transition: background-size 500ms;
+  transition: background-size 400ms;
+}
+
+.a:hover {
+  background-size: 0 2px, 100% 2px;
 }
