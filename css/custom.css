@@ -3,7 +3,15 @@
 }
 
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'poppins-light';
+}
+
+.bolder {
+  font-family: 'poppins-regular';
+}
+
+p {
+  font-size: 15px;
 }
 
 html,
@@ -15,49 +23,9 @@ body {
   padding-top: 56px;
 }
 
-@media (max-width: 991.98px) {
-  .offcanvas-collapse {
-    position: fixed;
-    top: 50px; /* Height of navbar */
-    bottom: 0;
-    left: 100%;
-    width: 100%;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    overflow-y: auto;
-    visibility: hidden;
-    background-color: white;
-    transition: transform .3s ease-in-out, visibility .3s ease-in-out;
-  }
-  .offcanvas-collapse.open {
-    visibility: visible;
-    transform: translateX(-100%);
-  }
-}
-
-
-.nav-scroller .nav-link {
-  padding-top: .20rem;
-  padding-bottom: .20rem;
-  color: black;
-}
-
-.nav-scroller .nav-link:hover {
-  color: #007bff;
-}
-
-.nav-scroller .active {
-  font-weight: 500;
-  color: #343a40;
-}
 
 .bg-purple {
   background-color: #6f42c1;
-}
-
-
-.bolder {
-  font-weight: 500;
 }
 
 
